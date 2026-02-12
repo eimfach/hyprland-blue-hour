@@ -21,10 +21,15 @@ modules:
     repos:
       copr:
         - atim/starship
+        - scottames/ghostty
+        - maveonair/jetbrains-mono-nerd-fonts
     install:
       packages:
         - micro
         - starship
+        - ghostty
+        - jetbrains-mono-nerd-fonts
+        - jetbrains-mononl-nerd-fonts
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
